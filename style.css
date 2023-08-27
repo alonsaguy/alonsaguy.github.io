@@ -27,7 +27,7 @@ header h2 {
 
 header-content {
     display: flex;
-    align-items: left;
+    align-items: center;
 }
 
 /* Style the image within the header */
