@@ -26,20 +26,14 @@ header h2 {
 }
 
 header-content {
-    display: flex;
+    display: inline-block;
     align-items: center;
 }
 
-/* Style the image within the header */
 header-content img {
     width: 100px;
     height: auto;
     margin-right: 20px;
-}
-
-/* Additional styles for the title and headers */
-title-header {
-    flex: 1;
 }
 
 section {
