@@ -292,7 +292,8 @@ a:hover{ text-decoration: underline; }
 }
 
 .paper-img{
-  width: 100%;
+  width: 70%;
+  height: auto;
   background: black;
   overflow: hidden;
   display: grid;
