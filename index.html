@@ -134,15 +134,14 @@
       <div class="card">
         <h2>Research</h2>
         <p class="muted">
-          Selected projects/papers with a brief overview. (Images are optional — add your own under <code>/assets</code> and update the paths.)
+          Selected projects/papers with a brief overview.
         </p>
 
         <div class="papers">
           <!-- Paper 1 -->
           <article class="paper">
             <div class="paper-img">
-              <img src="assets/paper_oneclick.jpg" alt="One-click reconstruction teaser" onerror="this.closest('.paper-img').classList.add('is-missing'); this.remove();" />
-              <div class="img-fallback">Add: assets/paper_oneclick.jpg</div>
+              <img src="assets/oneclick_fig.png" alt="One-click reconstruction teaser" onerror="this.closest('.paper-img').classList.add('is-missing'); this.remove();" />
             </div>
             <div class="paper-body">
               <h3>One-click reconstruction in single-molecule localization microscopy</h3>
@@ -157,9 +156,16 @@
 
           <!-- Paper 2 -->
           <article class="paper">
-            <div class="paper-img">
-              <img src="assets/paper_dblink.jpg" alt="DBlink teaser" onerror="this.closest('.paper-img').classList.add('is-missing'); this.remove();" />
-              <div class="img-fallback">Add: assets/paper_dblink.jpg</div>
+            <div class="paper-img video-wrap">
+              <video
+                class="paper-video"
+                src="assets/dblink.mp4"
+                autoplay
+                loop
+                muted
+                playsinline
+                preload="metadata">
+              </video>
             </div>
             <div class="paper-body">
               <h3>DBlink: dynamic localization microscopy in super spatiotemporal resolution</h3>
@@ -176,8 +182,7 @@
           <!-- Paper 3 -->
           <article class="paper">
             <div class="paper-img">
-              <img src="assets/paper_microtubule.jpg" alt="Diffusion model microscopy teaser" onerror="this.closest('.paper-img').classList.add('is-missing'); this.remove();" />
-              <div class="img-fallback">Add: assets/paper_microtubule.jpg</div>
+              <img src="assets/microtubule_fig.png" alt="Diffusion model microscopy teaser" onerror="this.closest('.paper-img').classList.add('is-missing'); this.remove();" />
             </div>
             <div class="paper-body">
               <h3>This microtubule does not exist: super-resolution microscopy image generation by a diffusion model</h3>
@@ -186,23 +191,6 @@
               </p>
               <div class="paper-links">
                 <a class="btn btn-small" href="https://onlinelibrary.wiley.com/doi/10.1002/smtd.202400672" target="_blank" rel="noreferrer">Paper</a>
-              </div>
-            </div>
-          </article>
-
-          <!-- Paper 4 -->
-          <article class="paper">
-            <div class="paper-img">
-              <img src="assets/paper_diffractive.jpg" alt="Diffractive optics teaser" onerror="this.closest('.paper-img').classList.add('is-missing'); this.remove();" />
-              <div class="img-fallback">Add: assets/paper_diffractive.jpg</div>
-            </div>
-            <div class="paper-body">
-              <h3>Diffractive optical system design by cascaded propagation</h3>
-              <p class="muted">
-                Differentiable optical propagation for designing complex diffractive systems via backpropagation, enabling flexible engineering of shift-variant PSFs.
-              </p>
-              <div class="paper-links">
-                <a class="btn btn-small" href="https://opg.optica.org/abstract.cfm?uri=oe-30-15-27509" target="_blank" rel="noreferrer">Paper</a>
               </div>
             </div>
           </article>
