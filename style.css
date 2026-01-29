@@ -303,8 +303,8 @@ a:hover{ text-decoration: underline; }
 .paper-video{
   width: 100%;
   height: 100%;
-  object-fit: contain;     /* <-- key change */
-  background: black;       /* fills the empty bars nicely for video */
+  object-fit: contain;   /* shows entire frame */
+  background: black;
   display: block;
 }
 
