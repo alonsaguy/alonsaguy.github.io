@@ -300,12 +300,8 @@ a:hover{ text-decoration: underline; }
 
 .paper-img img,
 .paper-video{
-  width: 100%;
-  height: 100%;
   object-fit: contain;
   display: block;
-  transform: scale(0.7);     /* 70% size */
-  transform-origin: center;
 }
 
 .paper-img.is-missing{
