@@ -304,7 +304,7 @@ a:hover{ text-decoration: underline; }
 .paper-img img,
 .paper-video{
   width: 50%;
-  height: 50%;
+  height: auto;
   object-fit: contain;   /* shows entire frame */
   background: black;
   display: block;
