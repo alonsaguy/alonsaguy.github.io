@@ -282,7 +282,7 @@ a:hover{ text-decoration: underline; }
 }
 .paper{
   display: grid;
-  grid-template-columns: min(28vw, 280px) 1fr;
+  grid-template-columns: clamp(260px, 32vw, 360px) 1fr;
   gap: 14px;
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -292,11 +292,13 @@ a:hover{ text-decoration: underline; }
 }
 
 .paper-img{
-  height: 240px;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  width: 100%;
   background: rgba(255,255,255,.03);
   overflow: hidden;
   display: grid;
-  place-items: center;     /* centers the media */
+  place-items: center;
 }
 
 .paper-img img,
