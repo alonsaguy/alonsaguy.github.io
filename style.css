@@ -275,7 +275,7 @@ a:hover{ text-decoration: underline; }
 }
 .paper{
   display: grid;
-  grid-template-columns: 180px 1fr;  /* was 220px */
+  grid-template-columns: 140px 1fr;  /* was 220px */
   gap: 14px;
   border: 1px solid var(--border);
   border-radius: 16px;
