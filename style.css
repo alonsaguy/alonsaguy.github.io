@@ -292,7 +292,6 @@ a:hover{ text-decoration: underline; }
 }
 
 .paper-img{
-  aspect-ratio: 4 / 3;
   width: 100%;
   background: black;
   overflow: hidden;
