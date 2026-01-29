@@ -282,12 +282,27 @@ a:hover{ text-decoration: underline; }
   overflow: hidden;
   background: rgba(0,0,0,.12);
 }
-.paper-img{
+.{
   position: relative;
   min-height: 160px;
   background: rgba(255,255,255,.03);
 }
+
+.paper-img{
+  height: 160px;          
+  min-height: 160px;      
+  background: rgba(255,255,255,.03);
+  overflow: hidden;       
+}
+
 .paper-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.paper-img img,
+.paper-video{
   width: 100%;
   height: 100%;
   object-fit: cover;
