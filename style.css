@@ -292,6 +292,8 @@ a:hover{ text-decoration: underline; }
 }
 
 .paper-img{
+  width: 100%;
+  aspect-ratio: 16 / 9;  /* gives it a stable height */
   background: black;
   overflow: hidden;
   display: grid;
@@ -300,6 +302,8 @@ a:hover{ text-decoration: underline; }
 
 .paper-img img,
 .paper-video{
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   display: block;
 }
