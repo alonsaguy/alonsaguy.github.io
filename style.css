@@ -321,6 +321,18 @@ a:hover{ text-decoration: underline; }
   margin-top: 10px;
 }
 
+.video-wrap {
+  overflow: hidden;
+  background: black;
+}
+
+.paper-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 /* Publications */
 .pubs{
   margin: 10px 0 0;
