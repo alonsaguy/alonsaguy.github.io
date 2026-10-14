@@ -430,7 +430,7 @@ a:hover{ text-decoration: underline; }
 /* Ephys Atlas video: taller preview */
 .paper-img.atlas-video-wrap {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
   display: flex;
   align-items: center;
